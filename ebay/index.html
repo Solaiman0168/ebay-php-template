@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Top Brand Outlet Template Generator</title>
+
+    <meta name="description" content="eBay templates generator">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css"> -->
+	<!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"> -->
+<!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script> -->
+	<link rel="stylesheet" href="lib/jQuery-File-Upload-9.22.0/css/jquery.fileupload.css">
+	
+    <link href="css/style.css" rel="stylesheet">
+
+  </head>
+  <body>
+    <div class="container">
+	<div class="row">
+		<div class="col-md-12">
+			<div style="margin-top: 50px;" class="jumbotron">
+				<h2>
+					Top Brand Outlet Template Generator
+				</h2>
+				<p>
+					Please fill all the info and click generate for creating Top Brand Outlet templates for your store.
+				</p>
+			</div>
+			<form role="form" action="generate-template.php" method="POST" enctype="multipart/form-data">
+			
+				<div class="form-group">					 
+					<label for="spotlight">
+						Title :
+					</label>
+					<input class="form-control" id="title" name="title" type="text" />
+				</div>
+				
+					
+				<!-- <div class="form-group">					 
+					<label for="description_title">
+						Description title
+					</label>
+					<input class="form-control" id="description_title" name="description_title" type="text" />
+				</div> -->
+				<div class="form-group">					 
+					<label for="description">
+						Description :
+					</label>
+					<textarea class="form-control" rows="3" id="description" name="description"></textarea>
+				</div>
+				<div class="form-group">					 
+					<label for="features">
+						Features :
+					</label>
+					<textarea class="form-control" rows="3" id="features" name="features"></textarea>
+				</div>
+							
+				<div class="form-group">					 
+
+					<!--<input id="fileupload" type="file" name="files[]" data-url="lib/jQuery-File-Upload-9.22.0/server/php/" multiple>-->
+					<!-- <label>Select image to upload:</label>
+					<input type="file" name="fileToUpload" id="fileToUpload"> -->
+
+					<!-- The container for the uploaded files -->
+					
+					<label for="about">
+						Brand Caution :
+					</label>
+					<textarea class="form-control" rows="3" id="brand_caution" name="brand_caution"></textarea>
+				</div>	
+
+				<div class="form-group">					 
+
+					<label for="about">
+						Submit Image URL Active:
+					</label>
+					<textarea class="form-control" rows="3" id="image_gallery" name="image_gallery"></textarea>
+				</div>
+
+				<div class="form-group">					 
+
+					<label for="about">
+						Submit Image URL 1 :
+					</label>
+					<textarea class="form-control" rows="3" id="image_gallery1" name="image_gallery1"></textarea>
+				</div>
+
+				<div class="form-group">					 
+
+					<label for="about">
+						Submit Image URL Small 1 :
+					</label>
+					<textarea class="form-control" rows="3" id="image_gallery1_1" name="image_gallery1_1"></textarea>
+				</div>
+
+				<div class="form-group">					 
+
+					<label for="about">
+						Submit Image URL 2 :
+					</label>
+					<textarea class="form-control" rows="3" id="image_gallery2" name="image_gallery2"></textarea>
+				</div>
+
+				<div class="form-group">					 
+
+					<label for="about">
+						Submit Image URL small 2 :
+					</label>
+					<textarea class="form-control" rows="3" id="image_gallery2_2" name="image_gallery2_2"></textarea>
+				</div>
+
+				<div class="form-group">					 
+
+					<label for="about">
+						Submit Image URL 3 :
+					</label>
+					<textarea class="form-control" rows="3" id="image_gallery3" name="image_gallery3"></textarea>
+				</div>
+
+				<div class="form-group">					 
+
+					<label for="about">
+						Submit Image URL small 3 :
+					</label>
+					<textarea class="form-control" rows="3" id="image_gallery3_3" name="image_gallery3_3"></textarea>
+				</div>	
+	
+
+				<div class="form-group">					 
+
+					<label for="about">
+						Submit Image URL 4 :
+					</label>
+					<textarea class="form-control" rows="3" id="image_gallery4" name="image_gallery4"></textarea>
+				</div>
+
+				<div class="form-group">					 
+
+					<label for="about">
+						Submit Image URL small 4 :
+					</label>
+					<textarea class="form-control" rows="3" id="image_gallery4_4" name="image_gallery4_4"></textarea>
+				</div>		
+
+				<div class="form-group">					 
+
+					<label for="about">
+						Submit Image URL 5 :
+					</label>
+					<textarea class="form-control" rows="3" id="image_gallery5" name="image_gallery5"></textarea>
+				</div>
+
+				<div class="form-group">					 
+
+					<label for="about">
+						Submit Image URL small 5 :
+					</label>
+					<textarea class="form-control" rows="3" id="image_gallery5_5" name="image_gallery5_5"></textarea>
+				</div>
+
+				<div class="form-group">					 
+
+					<label for="about">
+						Submit Image URL 6 :
+					</label>
+					<textarea class="form-control" rows="3" id="image_gallery6" name="image_gallery6"></textarea>
+				</div>	
+
+				<div class="form-group">					 
+
+					<label for="about">
+						Submit Image URL small 6 :
+					</label>
+					<textarea class="form-control" rows="3" id="image_gallery6_6" name="image_gallery6_6"></textarea>
+				</div>		
+
+
+				<button style="margin-bottom: 50px; margin-top: 20px; margin-left: 47%;" type="submit" class="btn btn-primary">
+					Generate
+				</button>
+				<!-- <input type="hidden" name="submit" value="1" /> -->
+				<!-- <input type="hidden" name="brand" value="" id="brand"/>
+				<input type="hidden" name="video" value="" id="video"/>
+				<input type="hidden" name="pimages" value="" id="pimages"/> -->
+			</form>
+		</div>
+	</div>
+</div>
+     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <!--<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js"></script>
+    <script src="js/scripts.js"></script>
+    <script src="lib/jQuery-File-Upload-9.22.0/js/vendor/jquery.ui.widget.js"></script>
+	<script src="lib/jQuery-File-Upload-9.22.0/js/jquery.iframe-transport.js"></script>
+	<script src="lib/jQuery-File-Upload-9.22.0/js/jquery.fileupload.js"></script>
+	<!-- include summernote css/js for bootstrap 4 -->
+	 <link href="https://cdnjs.cloudflare.com/ajax/libs/summernote/0.8.9/summernote-bs4.css" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/summernote/0.8.9/summernote-bs4.js"></script>
+
+<script>
+$(document).ready(function() {
+	$('#description').summernote({
+		placeholder: 'description',
+		tabsize: 2,
+		height: 100
+	});
+	
+	$('#features').summernote({
+		placeholder: 'Features',
+		tabsize: 2,
+		height: 100
+	});
+
+	$('#brand_caution').summernote({
+		placeholder: 'Brand Caution',
+		tabsize: 2,
+		height: 100
+	});
+
+	$('#image_gallery').summernote({
+		placeholder: 'Submit Active Image',
+		tabsize: 2,
+		height: 100
+	});
+
+	$('#image_gallery1').summernote({
+		placeholder: 'Submit Image URL 1',
+		tabsize: 2,
+		height: 100
+	});
+
+	$('#image_gallery1_1').summernote({
+		placeholder: 'Submit Image URL small 1',
+		tabsize: 2,
+		height: 100
+	});
+
+	$('#image_gallery2').summernote({
+		placeholder: 'Submit Image URL 2',
+		tabsize: 2,
+		height: 100
+	});
+
+	$('#image_gallery2_2').summernote({
+		placeholder: 'Submit Image URL small 2',
+		tabsize: 2,
+		height: 100
+	});
+
+	$('#image_gallery3').summernote({
+		placeholder: 'Submit Image URL 3',
+		tabsize: 2,
+		height: 100
+	});
+
+	$('#image_gallery3_3').summernote({
+		placeholder: 'Submit Image URL small 3',
+		tabsize: 2,
+		height: 100
+	});
+
+	$('#image_gallery4').summernote({
+		placeholder: 'Submit Image URL 4',
+		tabsize: 2,
+		height: 100
+	});
+
+	$('#image_gallery4_4').summernote({
+		placeholder: 'Submit Image URL small 4',
+		tabsize: 2,
+		height: 100
+	});
+
+	$('#image_gallery5').summernote({
+		placeholder: 'Submit Image URL 5',
+		tabsize: 2,
+		height: 100
+	});
+
+	$('#image_gallery5_5').summernote({
+		placeholder: 'Submit Image URL small 5',
+		tabsize: 2,
+		height: 100
+	});
+
+	$('#image_gallery6').summernote({
+		placeholder: 'Submit Image URL 6',
+		tabsize: 2,
+		height: 100
+	});
+
+	$('#image_gallery6_6').summernote({
+		placeholder: 'Submit Image URL small 6',
+		tabsize: 2,
+		height: 100
+	});
+	 
+	
+});
+</script>  
+</body>
+</html>
